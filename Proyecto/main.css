@@ -1,0 +1,139 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color: darkcyan;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario {
+    background: #fff;
+    margin-top: 130px;
+    padding: 3px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+.inputclass {
+    font-size: 30px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+.input-contenedor {
+margin-bottom: 15px;
+border: 1px solid #aaa;
+}
+
+.button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: cadetblue;
+}
+
+p {
+    text-align: center;
+}
+
+.link {
+  text-decoration: none;  
+  color: #1a2537;
+  font-weight: 600;
+}
+
+.icon {
+   min-width: 50px; 
+   text-align: center;
+   color: rgb(211, 21, 21);
+}
+
+@media (min-width:768px) {
+    .formulario {
+        margin: auto;
+        width: 500px;
+        margin-top: 100px;
+        border-radius: 2%;
+     
+        
+    }
+}
+
+/* Estilo Vitas App */
+
+.div-item-1 {
+    background-color: rgb(245, 238, 238);
+    height: 600px;
+    width: 75%;
+    float: right;
+}
+
+.div-item-2 {
+    background-color:darkcyan;
+    width: 25%;
+    height: 600px;
+    float: left;
+}
+
+span {
+    color: brown;
+}
+
+.h1-item-logo {
+  color: #fff;
+}
+
+ul {
+ margin-left: 25px;
+ margin-top: 60px;
+
+}
+
+li {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Estilos pagina web paciente */
+
+.item-menu-paciente {
+ 
+
+}
+
+.item-li-paciente {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.item-a-paciente {
+    color: #1a2537;
+}
