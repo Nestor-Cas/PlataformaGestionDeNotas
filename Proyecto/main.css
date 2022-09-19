@@ -35,7 +35,7 @@ h1 {
 
 .input-contenedor {
 margin-bottom: 15px;
-border: 1px solid #aaa;
+border: 1px solid rgb(197, 194, 194);
 }
 
 .button {
@@ -64,9 +64,9 @@ p {
 }
 
 .icon {
-   min-width: 50px; 
+   min-width:50px; 
    text-align: center;
-   color: rgb(211, 21, 21);
+   color: rgb(167, 151, 151);
 }
 
 @media (min-width:768px) {
@@ -97,11 +97,11 @@ p {
 }
 
 span {
-    color: rgb(221, 58, 58);
+    color: rgb(58, 210, 221);
 }
 
 .h1-item-logo {
-  color: rgb(166, 43, 43);
+  color: rgb(58,210,221);
 }
 
 ul {
@@ -123,17 +123,17 @@ a {
 
 /* Estilos pagina web paciente */
 
-.item-menu-paciente {
+.item-menu-GesNotas {
  
 
 }
 
-.item-li-paciente {
+.item-li-GestorNotas {
     display: inline-block;
     padding: 10px;
 
 }
 
-.item-a-paciente {
-    color: #1a2537;
+.item-a-GestorNotas {
+    color: #6a6e74;
 }
