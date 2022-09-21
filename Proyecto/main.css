@@ -1,0 +1,143 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color:rgb(59, 65, 65);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 15px;
+    
+}
+
+.formulario {
+    background: #fff;
+    margin-top: 130px;
+    padding: 3px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+.inputclass {
+    font-size: 30px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+.input-contenedor {
+margin-bottom: 15px;
+border: 1px solid rgb(197, 194, 194);
+text-align: center;
+}
+
+.button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: cadetblue;
+}
+
+p {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link {
+  text-decoration: none;  
+  color: #1a2537;
+  font-weight: 600;
+}
+
+.icon {
+   min-width:50px; 
+   text-align: center;
+   color: rgb(167, 151, 151);
+}
+
+@media (min-width:768px) {
+    .formulario {
+        margin: auto;
+        width: 500px;
+        margin-top: 100px;
+        border-radius: 2%;
+     
+        
+    }
+}
+
+/* Estilo Vitas App */
+
+.div-item-1 {
+    background-color: rgb(245, 238, 238);
+    height: 600px;
+    width: 75%;
+    float: right;
+}
+
+.div-item-2 {
+    background: #303952;
+    width: 25%;
+    height: 600px;
+   
+}
+
+span {
+    color: rgb(58, 210, 221);
+}
+
+.h1-item-logo {
+  color: rgb(58,210,221);
+}
+
+ul {
+ margin-left: 25px;
+ margin-top: 80px;
+
+}
+
+li {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Estilos pagina web paciente */
+
+
+.item-li-GestorNotas {
+    display:flex;
+    padding: 20px;
+
+}
+
+.item-a-GestorNotas {
+    color: #6a6e74;
+}
+.item-admin{
+    text-align: center;
+    
+}
+
